@@ -3,5 +3,8 @@ README.txt
 
 #do not ignore README.md 
 
+#Ingnore all log files
+*.log
+
 #Ignore folder named 'Docs'
 Docs/
