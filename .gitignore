@@ -1,0 +1,7 @@
+#Ignore file name 'README.txt'
+README.txt
+
+#do not ignore README.md 
+
+#Ignore folder named 'Docs'
+Docs/
