@@ -1,0 +1,21 @@
+body {
+  margin: 0 20%;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.me {
+  padding-right: 5%;
+}
+
+.toDelete {
+  color: rgb(25, 97, 10);
+  background-color: rgb(213, 47, 202);
+  padding-left: 15px;
+  margin-right: 55px;
+  border-radius: 15px;
+  border: 2px solid rgb(25, 97, 10);
+}
