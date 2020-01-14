@@ -1,7 +1,7 @@
 body {
   margin: 0 20%;
   background-color: #edf0c7;
-
+  font-family: sans-serif;
   color: #2e5a1c;
 
   /*
@@ -11,7 +11,7 @@ body {
   03002c;
   */
 }
-h1, h2, h3{color: #4e9525;}
+h1, h2, h3{color: #4e9525;font-family: serif;}
 hr {
   border-style: none;
   border-top: 10px dotted #ff5c00;
