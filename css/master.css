@@ -1,5 +1,25 @@
 body {
   margin: 0 20%;
+  background-color: #f2e8c6;
+  color: #03002c;
+  /*
+  border: 2px ridge #f5841a;
+  border-bottom: none;
+  */
+}
+
+hr {
+  border-style: none;
+  border-top: 10px dotted #f5841a;
+  width: 15%;
+}
+
+img {
+  height: 95%;
+  width: 95%;
+}
+th{
+  border-bottom: 1px solid #f5841a;
 }
 
 ul li {
@@ -7,8 +27,33 @@ ul li {
   margin: 0;
 }
 
+.container, .brmLink {
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .me {
-  padding-right: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.titleFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.titleImg .titleImg2{
+  width: 15%;
+}
+
+.titleName {
+  width: 85%;
+  text-align: center;
 }
 
 .toDelete {

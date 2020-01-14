@@ -14,9 +14,19 @@
 </head>
 
 <body>
-  <h1><a href="index.html"><img class="me" src="img/me.jpg" alt="img of me"></a>
-    Warren S Wyght
+  <h1 class="titleFlex">
+    <div class="tileImg">
+      <a href="index.html"><img class="me" src="img/me.jpg" alt="img of me"></a>
+    </div>
+    <div class="titleName">
+      Warren S Wyght
+    </div>
+      <div class="tileImg2">
+        <a href="index.html"><img class="me" src="img/me2.jpg" alt="img of me to"></a>
+      </div>
   </h1>
+  <hr>
+
   <h2><em>Hobbiest Coder</em></h2>
   <div>
     <p>
@@ -27,109 +37,133 @@
       space, front-end for DB, designed and wrote databases for corporations.
     </p>
   </div>
-
-  <table style="border-top: 2px solid grey; border-bottom: 2px solid grey; padding: 5px;">
-    <!-- put these   <td>&nbsp;</td> spacer cells in to -->
-    <!-- adjust the 'table' away from left side -->
-    <!-- I did this 'just' to discover if it works -->
-    <thead>
-      <tr>
-        <th style="border-bottom: 1px solid grey;">Skillset</th>
-        <th>&nbsp;</th>
-        <th style="border-bottom: 1px solid grey;">Skill Level</th>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th style="border-bottom: 1px solid grey;">Skillset</th>
-        <th>&nbsp;</th>
-        <th style="border-bottom: 1px solid grey;">Skill Level</th>
-      </tr>
-    </thead>
-    <tbody>
-
-      <tr>
-        <td>C++</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>Java</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-      </tr>
-      <tr>
-        <td>Smalltalk</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>Assembly</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆</td>
-      </tr>
-      <tr>
-        <td>HTML 5</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>CSS</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-      </tr>
-      <tr>
-        <td>ES19</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>PHP</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-      </tr>
-      <tr>
-        <td>NodeJS</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>MySQL</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-      </tr>
-      <tr>
-        <td>MariaDB</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>SQL</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-      </tr>
-      <tr>
-        <td>MongoDB</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>Linux</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
-      </tr>
-    </tbody>
-  </table>
   <br>
-  <a href="index.html">My Homepage</a>&nbsp;&nbsp;
-  <a href="contact.html">My Contact Information</a>
-  <br><br>
+  <hr>
+  <br>
+  <div class="container">
+    <table style="padding: 5px;">
+      <!-- put these   <td>&nbsp;</td> spacer cells in to -->
+      <!-- adjust the 'table' away from left side -->
+      <!-- I did this 'just' to discover if it works -->
+      <thead>
+        <tr>
+          <th>Skillset</th>
+          <th>&nbsp;</th>
+          <th>Skill Level</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>Skillset</th>
+          <th>&nbsp;</th>
+          <th>Skill Level</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>C++</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>Java</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
+        </tr>
+        <tr>
+          <td>Smalltalk</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>Assembly</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆</td>
+        </tr>
+        <tr>
+          <td>HTML 5</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🚧</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>CSS</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🚧</td>
+        </tr>
+        <tr>
+          <td>ES19</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🚧</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>PHP</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🚧&nbsp;</td>
+        </tr>
+        <tr>
+          <td>NodeJS</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🚧&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>MySQL</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
+        </tr>
+        <tr>
+          <td>MariaDB</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🚧</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>SQL</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🏆</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🚧</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>Linux</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🚧&nbsp;</td>
+        </tr>
+        <tr>
+          <td>GIT</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🏆&nbsp;🏆&nbsp;🚧</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>GITHUB</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;🏆&nbsp;🚧&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <div class="container">
+    <a href="index.html">My Homepage</a>&nbsp;&nbsp;
+    <a href="contact.html">My Contact Information</a>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <br>
 
 </body>
 
