@@ -1,16 +1,20 @@
 body {
   margin: 0 20%;
-  background-color: #f2e8c6;
-  color: #03002c;
+  background-color: #edf0c7;
+
+  color: #2e5a1c;
+
   /*
-  border: 2px ridge #f5841a;
+  border: 2px ridge #ff5c00;
   border-bottom: none;
+  #f2e8c6;
+  03002c;
   */
 }
-
+h1, h2, h3{color: #4e9525;}
 hr {
   border-style: none;
-  border-top: 10px dotted #f5841a;
+  border-top: 10px dotted #ff5c00;
   width: 15%;
 }
 
@@ -19,7 +23,7 @@ img {
   width: 95%;
 }
 th{
-  border-bottom: 1px solid #f5841a;
+  border-bottom: 1px solid #ff5c00;
 }
 
 ul li {
